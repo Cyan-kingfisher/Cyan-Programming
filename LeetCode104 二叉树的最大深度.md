@@ -1,4 +1,4 @@
-***Description***
+***Description***<br>
 给定一个二叉树，找出其最大深度。
 
 二叉树的深度为根节点到最远叶子节点的最长路径上的节点数。
@@ -13,8 +13,8 @@
   9  20
     /  \
    15   7
-返回它的最大深度 3 。
-***MyCode***
+返回它的最大深度 3 <br>
+***MyCode***<br>
 ```java
 public class TreeNode {
     int val;

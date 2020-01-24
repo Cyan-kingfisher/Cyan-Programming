@@ -1,4 +1,4 @@
-***Description***
+***Description***<br>
  根据一棵树的中序遍历与后序遍历构造二叉树。
 
  注意:
@@ -15,7 +15,7 @@
   9  20
  /  \
 15   7
-***MyCode***
+***MyCode***<br>
 ```java
 import java.util.*;
 public class TreeNode {
