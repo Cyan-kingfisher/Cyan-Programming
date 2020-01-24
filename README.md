@@ -1,3 +1,4 @@
 
 ***The algorithmic programming problem I wrote***
-***The description of each question is in the corresponding document***
+<br>
+***The description and procedure of each question are in the corresponding documents***
