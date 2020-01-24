@@ -1,5 +1,4 @@
-
-/**
+***Description***
  根据一棵树的中序遍历与后序遍历构造二叉树。
 
  注意:
@@ -11,13 +10,13 @@
  后序遍历 postorder = [9,15,7,20,3]
  返回如下的二叉树：
 
- 3
- / \
- 9  20
+    3
+   / \
+  9  20
  /  \
- 15   7
+15   7
 
-*/
+```java
 import java.util.*;
 public class TreeNode {
     int val;

@@ -1,4 +1,4 @@
-/*
+***Description***
 根据一棵树的前序遍历与中序遍历构造二叉树。
 
 注意:
@@ -16,7 +16,7 @@
     /  \
    15   7
 
-*/
+```java
 class Solution {
     Map<Integer,Integer> map ;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
