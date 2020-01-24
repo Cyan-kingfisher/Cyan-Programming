@@ -13,7 +13,7 @@ For each question Mi, print yes or no.
 ***Constraints***<br>
 n ≤ 20
 q ≤ 200
-1 ≤ elements in A ≤ 2000
+1 ≤ elements in A ≤ 2000 
 1 ≤ Mi ≤ 2000
 ***Sample Input 1***<br>
 5
