@@ -10,12 +10,12 @@
 中序遍历 inorder = [9,3,15,20,7]
 返回如下的二叉树：
 
-    3
-   / \
-  9  20
-    /  \
-   15   7
-***MyCode***<br>
+>    3
+>   / \
+>  9  20
+>    /  \
+>  15   
+<br>***MyCode***<br>
 ```java
 class Solution {
     Map<Integer,Integer> map ;
