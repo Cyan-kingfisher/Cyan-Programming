@@ -6,7 +6,11 @@
 节点的左子树只包含小于当前节点的数。
 节点的右子树只包含大于当前节点的数。
 所有左子树和右子树自身必须也是二叉搜索树
-<br>***MyCode***<br>
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/validate-binary-search-tree/
+
+***MyCode***<br>
 ```java
 
 class TreeNode {

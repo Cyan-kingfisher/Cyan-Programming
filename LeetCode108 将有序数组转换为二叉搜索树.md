@@ -14,7 +14,11 @@
 >        -3   9
 >        /   /
 >     -10  5
-<br>***MyCode***<br>
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/
+
+***MyCode***<br>
 ```java
  public class TreeNode {
     int val;

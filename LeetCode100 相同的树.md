@@ -5,15 +5,19 @@
 
 示例 1:
 
-输入:
->		   1         1
+>输入:
+>		    1         1
 >          / \       / \
 >         2   3     2   3
 >
 >        [1,2,3],   [1,2,3]
 
 输出: true
-<br>***MyCode***<br>
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/same-tree/
+
+***MyCode***<br>
 ```java
 class TreeNode {
     int val;

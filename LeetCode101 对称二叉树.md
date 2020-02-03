@@ -16,7 +16,11 @@
 >  2   2
 >   \   \
 >   3    3
-<br>***MyCode***<br>
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/symmetric-tree/
+
+***MyCode***<br>
 ```java
 Class TreeNode {
     int val;

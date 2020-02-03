@@ -1,4 +1,5 @@
-***Description***<br>
+***Description***
+
 根据一棵树的中序遍历与后序遍历构造二叉树。
 
 注意:
@@ -14,6 +15,9 @@
 >  9  20
 > /  \
 >15   7
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
 
 ***MyCode***<br>
 ```java

@@ -15,7 +15,11 @@
 >  9  20
 >    /  \
 >  15   
-<br>***MyCode***<br>
+
+来源：力扣（LeetCode）
+链接：https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+
+***MyCode***
 ```java
 class Solution {
     Map<Integer,Integer> map ;
