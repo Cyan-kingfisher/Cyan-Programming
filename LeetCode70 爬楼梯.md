@@ -25,22 +25,22 @@
 链接：https://leetcode-cn.com/problems/climbing-stairs
 
 ***MyCode***
+
 ```java
 class Solution {
-    public boolean searchMatrix(int[][] matrix, int target) {
-        if (matrix.length == 0)return false;
-        leng_col = matrix[0].length;
-        this.target = target;
-        return search(matrix,0,matrix.length*leng_col-1);
-    }
-    private int leng_col ;
-    private int target;
-    private boolean search(int[][] matrix,int left,int right){
-        if (left>right)return false;
-        int mid = ( left + right ) /2;
-        int row = mid / leng_col;
-        int col = mid % leng_col;
-        if (matrix[row][col]==target)return true;
-        return search(matrix, left, mid-1)||search(matrix, mid+1, right);
+    public int climbStairs(int n) {
+        int[] dp = new int[n+1];
+        int i = 0;
+        while(i!=n){
+            i++;
+            if(i > 2){
+                dp[i] = dp[i-2] + dp[i-1];
+            }else if(i==1){
+                dp[i] = 1;
+            }else{
+                dp[i] = 2;
+            }
+        }
+        return dp[i];
     }
 }
